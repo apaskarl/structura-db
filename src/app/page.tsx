@@ -21,12 +21,12 @@ export default function Home() {
         </div>
 
         <div className="flex items-center justify-between gap-x-8">
-          <Link href="/auth/login" className="text-subtext">
+          <Link href="/auth/login" className="text-subtext font-medium">
             Log in
           </Link>
           <Link
             href="/auth/login"
-            className="bg-secondary rounded-lg px-4 py-2 text-white shadow"
+            className="bg-secondary rounded-lg px-4 py-2 font-medium text-white shadow"
           >
             Try StructuraDB
           </Link>
@@ -46,13 +46,13 @@ export default function Home() {
         <div className="grid w-1/3 grid-cols-2 gap-x-5">
           <Link
             href="/auth/login"
-            className="text-subtext rounded-lg bg-white px-4 py-3 text-center shadow"
+            className="text-primary rounded-lg bg-white px-4 py-3 text-center font-medium shadow"
           >
             Learn more
           </Link>
           <Link
             href="/auth/login"
-            className="bg-secondary rounded-lg px-4 py-3 text-center text-white shadow"
+            className="bg-secondary rounded-lg px-4 py-3 text-center font-medium text-white shadow"
           >
             Get started
           </Link>
